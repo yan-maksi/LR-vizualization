@@ -25,3 +25,6 @@ Cuántas veces quieres que lo intente
 Qué tan preciso quieres que sea
 
 Y todo se ve en tiempo real, así que es bastante entretenido ver cómo va mejorando poco a poco.
+
+https://github.com/user-attachments/assets/0a5f9338-2c97-47f3-8f64-c8e09a298b5f
+
