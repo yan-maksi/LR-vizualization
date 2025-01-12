@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    display: inline-block;
+    width: 200px;
+}
+canvas {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+#graphContainer {
+    display: flex;
+    flex-direction: column;
+}

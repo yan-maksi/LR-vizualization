@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Regresión Lineal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="configForm">
+        <div class="form-group">
+            <label for="maxIterations">Número máximo de iteraciones:</label>
+            <input type="number" id="maxIterations" value="1000" min="1">
+        </div>
+        <div class="form-group">
+            <label for="maxError">Error máximo permitido:</label>
+            <input type="number" id="maxError" value="0.01" step="0.01" min="0">
+        </div>
+        <div class="form-group">
+            <label for="learningRate">Tasa de aprendizaje:</label>
+            <input type="number" id="learningRate" value="0.1" step="0.01" min="0">
+        </div>
+        <button type="submit">Iniciar Entrenamiento</button>
+    </form>
+
+    <div id="graphContainer">
+        <canvas id="errorCanvas" width="600" height="200"></canvas>
+        <canvas id="regressionCanvas" width="600" height="200"></canvas>
+    </div>
+
+    <script type="module" src="logic.js"></script>
+</body>
+</html>
