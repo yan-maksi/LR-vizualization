@@ -13,7 +13,7 @@ Todo se ve en la pantalla con dibujitos (los puntos en azul y la línea en rojo)
 Lo hice usando JavaScript normal (sin frameworks ni cosas raras) y le puse Canvas para los dibujos. También lo metí en Docker para que sea más fácil de correr en cualquier computadora.
 Para probarlo, usé datos bien simples - son solo 4 puntos que siguen un patrón de multiplicar por 2:
 
-onst data = [
+data = [
     [1, 2], [2, 4], [3, 6], [4, 8], [6, 19] 
 ];
 
