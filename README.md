@@ -13,10 +13,9 @@ Todo se ve en la pantalla con dibujitos (los puntos en azul y la línea en rojo)
 Lo hice usando JavaScript normal (sin frameworks ni cosas raras) y le puse Canvas para los dibujos. También lo metí en Docker para que sea más fácil de correr en cualquier computadora.
 Para probarlo, usé datos bien simples - son solo 4 puntos que siguen un patrón de multiplicar por 2:
 
-Cuando x es 1, y es 2
-Cuando x es 2, y es 4
-Cuando x es 3, y es 6
-Cuando x es 4, y es 8
+onst data = [
+    [1, 2], [2, 4], [3, 6], [4, 8], [6, 19] 
+];
 
 Es como un juguete educativo, pero ayuda bastante a entender cómo las computadoras pueden encontrar patrones en datos. Si alguna vez te preguntaste cómo funcionan esas cosas de "machine learning", esto te da una idea básica y divertida.
 Lo mejor es que puedes cambiar algunas cosas como:
